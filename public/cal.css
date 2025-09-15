@@ -1,0 +1,1246 @@
+body{
+    background-color: rgba(128, 128, 128, 0.186);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-one{
+    border: 2px solid white;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    border-radius: 10px;
+    padding-left: 2.5rem;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 435px) and (min-width: 415px){
+    .card-one{
+        border: 2px solid white;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+        border-radius: 10px;
+        padding-left: 2rem;
+        padding-top: 0.5rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 415px) and (min-width: 413px){
+    .card-one{
+        border: 2px solid white;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+        border-radius: 10px;
+        padding-left: 1.9rem;
+        padding-top: 0.5rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 413px) and (min-width: 395px){
+    .card-one{
+        border: 2px solid white;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+        border-radius: 10px;
+        padding-left: 1.8rem;
+        padding-top: 0.5rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 395px) and (min-width: 376px){
+    .card-one{
+        border: 2px solid white;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+        border-radius: 10px;
+        padding-left: 1.4rem;
+        padding-top: 0.5rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 376px) and (min-width: 355px) {
+    .card-one{
+        border: 2px solid white;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+        border-radius: 10px;
+        padding-left: 1.4rem;
+        padding-top: 0.5rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 355px) and (min-width: 325px){
+    .card-one{
+        border: 2px solid white;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+        border-radius: 10px;
+        padding-left: 1.4rem;
+        padding-top: 0.5rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media(max-width: 325px) and (min-width: 315px){
+    .card-one{
+        border: 2px solid white;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+        border-radius: 10px;
+        padding-left: 1.2rem;
+        padding-top: 0.5rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.separate-title-toggle{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.9rem;
+}
+
+@media (max-width: 413px){
+    .separate-title-toggle{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0.5rem;
+    }
+}
+
+.budget-tracker-title{
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 0px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+}
+
+@media (max-width: 435px) and (min-width: 415px){
+    .budget-tracker-title{
+        font-size: 25px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 0px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        word-spacing: 0.5px;
+    }
+}
+
+@media (max-width: 415px) and (min-width: 413px){
+    .budget-tracker-title{
+        font-size: 25px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 0px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        word-spacing: 0.5px;
+    }
+}
+
+@media (max-width:413px) and (min-width: 395px){
+    .budget-tracker-title{
+        font-size: 26px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 0px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        word-spacing: 0.5px;
+    }
+}
+
+@media (max-width: 395px) and (min-width: 376px){
+    .budget-tracker-title{
+        font-size: 24px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 0px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        word-spacing: 0.5px;
+    }
+}
+
+@media (max-width: 376px) and (min-width: 355px){
+    .budget-tracker-title{
+        font-size: 24px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 0px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        word-spacing: 0.5px;
+    }
+}
+
+@media (max-width: 355px) and (min-width: 325px){
+    .budget-tracker-title{
+        font-size: 22px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 0px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        word-spacing: 0.5px;
+    }
+}
+
+@media (max-width: 325px) and (min-width: 315px){
+    .budget-tracker-title{
+        font-size: 21.5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 0px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        word-spacing: 0.5px;
+    }
+}
+
+.toggle-btn{
+    margin-left: 68rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0px;
+    margin-top: 0.9rem;
+    margin-bottom: 0.6rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 13.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+@media(max-width: 435px) and (min-width: 415px){
+    .toggle-btn{
+        margin-left: 4rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 0px;
+        margin-top: 0.9rem;
+        margin-bottom: 0.6rem;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-size: 13px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+        background-color: white;
+        transition: background-color 0.5s ease, color 0.5s ease;
+    }
+}
+
+@media (max-width: 415px) and (min-width: 413px){
+    .toggle-btn{
+        margin-left: 4rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 0px;
+        margin-top: 0.9rem;
+        margin-bottom: 0.6rem;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-size: 12px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+        background-color: white;
+        transition: background-color 0.5s ease, color 0.5s ease;
+    }
+}
+
+@media (max-width: 413px) and (min-width: 395px){
+    .toggle-btn{
+        margin-left: 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 0px;
+        margin-top: 0.9rem;
+        margin-bottom: 0.6rem;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-size: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+        background-color: white;
+        transition: background-color 0.5s ease, color 0.5s ease;
+    }
+}
+
+@media (max-width: 395px) and (min-width: 376px) {
+    .toggle-btn{
+        margin-left: 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 0.2rem;
+        padding-bottom: 0.3rem;
+        margin-top: 0.7rem;
+        margin-bottom: 0.6rem;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: 13px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+        background-color: white;
+        transition: background-color 0.5s ease, color 0.5s ease;
+    }
+}
+
+@media (max-width: 376px) and (min-width: 355px){
+    .toggle-btn{
+        margin-left: 1.3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 0.2rem;
+        padding-bottom: 0.3rem;
+        margin-top: 0.7rem;
+        margin-bottom: 0.6rem;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: 12px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+        background-color: white;
+        transition: background-color 0.5s ease, color 0.5s ease;
+    }
+}
+
+@media (max-width: 355px) and (min-width: 325px){
+    .toggle-btn{
+        margin-left: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 0.2rem;
+        padding-bottom: 0.3rem;
+        margin-top: 0.7rem;
+        margin-bottom: 0.6rem;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: 12px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+        background-color: white;
+        transition: background-color 0.5s ease, color 0.5s ease;
+    }
+}
+
+@media (max-width: 325px) and (min-width: 315px) {
+    .toggle-btn{
+        margin-left: 1.7rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        padding-top: 0.2rem;
+        padding-bottom: 0.3rem;
+        margin-top: 0.7rem;
+        margin-bottom: 0.6rem;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: 11px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+        background-color: white;
+        transition: background-color 0.5s ease, color 0.5s ease;
+    }
+}
+
+.toggle-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.amount-label{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 325px) and (min-width: 315px) {
+    .amount-label{
+        font-size: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+    }
+}
+
+.amount{
+    margin-top: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.464);
+    padding: 0.5rem 2rem 0.5rem;
+    padding-right: 77.7rem;
+    border-radius: 5px;
+    background-color: white;
+    outline: none;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 0.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media(max-width: 435px) and (min-width: 415px){
+    .amount{
+        margin-top: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.464);
+        padding: 0.5rem 2rem 0.5rem;
+        padding-right: 10rem;
+        border-radius: 5px;
+        background-color: white;
+        outline: none;
+        font-size: 16px;
+        text-align: left;
+        padding-left: 1rem;
+        padding-top: 0.3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+@media (max-width: 415px) and (min-width: 413px){
+    .amount{
+        margin-top: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.464);
+        padding: 0.5rem 2rem 0.5rem;
+        padding-right: 9.1rem;
+        border-radius: 5px;
+        background-color: white;
+        outline: none;
+        font-size: 16px;
+        text-align: left;
+        padding-left: 1rem;
+        padding-top: 0.3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+@media (max-width: 413px) and (min-width: 395px) {
+    .amount{
+        margin-top: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.464);
+        padding: 0.5rem 2rem 0.5rem;
+        padding-right: 8.5rem;
+        border-radius: 5px;
+        background-color: white;
+        outline: none;
+        font-size: 16px;
+        text-align: left;
+        padding-left: 1rem;
+        padding-top: 0.3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+@media (max-width: 395px) and (min-width: 376px){
+    .amount{
+        margin-top: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.464);
+        padding: 0.5rem 2rem 0.5rem;
+        padding-right: 8rem;
+        border-radius: 5px;
+        background-color: white;
+        outline: none;
+        font-size: 16px;
+        text-align: left;
+        padding-left: 1rem;
+        padding-top: 0.3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+@media (max-width: 376px) and (min-width: 355px){
+    .amount{
+        margin-top: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.464);
+        padding: 0.5rem 2rem 0.5rem;
+        padding-right: 6.2rem;
+        border-radius: 5px;
+        background-color: white;
+        outline: none;
+        font-size: 16px;
+        text-align: left;
+        padding-left: 1rem;
+        padding-top: 0.3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+@media (max-width: 355px) and (min-width: 325px){
+    .amount{
+        margin-top: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.464);
+        padding: 0.5rem 2rem 0.5rem;
+        padding-right: 6rem;
+        border-radius: 5px;
+        background-color: white;
+        outline: none;
+        font-size: 16px;
+        text-align: left;
+        padding-left: 1rem;
+        padding-top: 0.3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+@media (max-width: 325px) and (min-width: 315px){
+    .amount{
+        margin-top: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.464);
+        padding: 0.4rem 2rem 0.4rem;
+        padding-right: 4rem;
+        border-radius: 5px;
+        background-color: white;
+        outline: none;
+        font-size: 16px;
+        text-align: left;
+        padding-left: 1rem;
+        padding-top: 0.3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+.description-label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 325px) and (min-width: 315px){
+    .description-label{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+    }
+}
+
+.description{
+    margin-top: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.464);
+    padding: 0.5rem 2rem 0.5rem;
+    padding-right: 77.7rem;
+    border-radius: 5px;
+    background-color: white;
+    outline: none;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 0.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media(max-width: 435px) and (min-width: 415px){
+    .description{
+        margin-top: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.464);
+        padding: 0.5rem 2rem 0.5rem;
+        padding-right: 10rem;
+        border-radius: 5px;
+        background-color: white;
+        outline: none;
+        font-size: 16px;
+        text-align: left;
+        padding-left: 1rem;
+        padding-top: 0.3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+@media(max-width: 415px) and (min-width: 413px){
+    .description{
+        margin-top: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.464);
+        padding: 0.5rem 2rem 0.5rem;
+        padding-right: 9.1rem;
+        border-radius: 5px;
+        background-color: white;
+        outline: none;
+        font-size: 16px;
+        text-align: left;
+        padding-left: 1rem;
+        padding-top: 0.3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+@media(max-width: 413px) and (min-width: 395px){
+    .description{
+        margin-top: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.464);
+        padding: 0.5rem 2rem 0.5rem;
+        padding-right: 8.5rem;
+        border-radius: 5px;
+        background-color: white;
+        outline: none;
+        font-size: 16px;
+        text-align: left;
+        padding-left: 1rem;
+        padding-top: 0.3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+@media (max-width: 395px) and (min-width: 376px){
+    .description{
+        margin-top: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.464);
+        padding: 0.5rem 2rem 0.5rem;
+        padding-right: 8rem;
+        border-radius: 5px;
+        background-color: white;
+        outline: none;
+        font-size: 16px;
+        text-align: left;
+        padding-left: 1rem;
+        padding-top: 0.3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+@media(max-width: 376px) and (min-width: 355px){
+    .description{
+        margin-top: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.464);
+        padding: 0.5rem 2rem 0.5rem;
+        padding-right: 6.2rem;
+        border-radius: 5px;
+        background-color: white;
+        outline: none;
+        font-size: 16px;
+        text-align: left;
+        padding-left: 1rem;
+        padding-top: 0.3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+@media (max-width: 355px) and (min-width: 325px){
+    .description{
+        margin-top: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.464);
+        padding: 0.5rem 2rem 0.5rem;
+        padding-right: 6rem;
+        border-radius: 5px;
+        background-color: white;
+        outline: none;
+        font-size: 16px;
+        text-align: left;
+        padding-left: 1rem;
+        padding-top: 0.3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+@media (max-width: 325px) and (min-width: 315px) {
+    .description{
+        margin-top: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.464);
+        padding: 0.3rem 2rem 0.3rem;
+        padding-right: 4rem;
+        border-radius: 5px;
+        background-color: white;
+        outline: none;
+        font-size: 16px;
+        text-align: left;
+        padding-left: 1rem;
+        padding-top: 0.3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+input[type="radio"] {
+  transform: scale(1.2);
+  accent-color: #1976d2; 
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.income{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media (max-width: 325px) and (min-width: 315px) {
+    .income{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+    }
+}
+
+.expense{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media (max-width: 325px) and (min-width: 315px) {
+    .expense{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+    }
+}
+
+.submit{
+    background-color: #1976d2;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    border: 1px solid #1976d2;
+    border-radius: 5px;
+    transition: background-color 0.5s ease, border 0.5s ease;
+    cursor: pointer;
+}
+
+@media (max-width: 325px) and (min-width: 315px){
+    .submit{
+        background-color: #1976d2;
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 0.3rem;
+        padding-top: 0.3rem;
+        border: 1px solid #1976d2;
+        border-radius: 5px;
+        transition: background-color 0.5s ease, border 0.5s ease;
+        cursor: pointer;
+    }
+}
+
+.submit:hover{
+    background-color: #0080ff;
+    border: 1px solid #0080ff;
+}
+
+.totalincome{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+
+.totalexpense{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+
+.currentbalance{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+
+@media (max-width: 325px) and (min-width: 315px){
+    .totalincome{
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.2px;
+    }
+
+    .totalexpense{
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.2px;
+    }
+
+    .currentbalance{
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.2px;
+    }
+}
+
+.clearall{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    cursor: pointer;
+}
+
+@media (max-width: 325px) and (min-width: 315px){
+    .clearall{
+        background-color: white;
+        color: black;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 0.3rem;
+        padding-top: 0.3rem;
+        border: 1px solid black;
+        border-radius: 5px;
+        transition: background-color 0.5s ease, color 0.5s ease;
+        cursor: pointer;
+    }
+}
+
+.clearall:hover{
+    background-color: black;
+    color: white;
+}
+
+.alert{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: red;
+}
+
+@media (max-width: 325px) and (min-width: 315px){
+    .alert{
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        color: red;
+    }
+}
+
+.card-two{
+    border: 2px solid white;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    border-radius: 10px;
+    padding-left: 2.5rem;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+}
+
+@media (max-width: 435px) and (min-width: 415px){
+    .card-two{
+        border: 2px solid white;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+        border-radius: 10px;
+        padding-left: 2rem;
+        padding-top: 0.5rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 415px) and (min-width: 413px){
+    .card-two{
+        border: 2px solid white;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+        border-radius: 10px;
+        padding-left: 1.9rem;
+        padding-top: 0.5rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media(max-width: 413px) and (min-width: 395px){
+    .card-two{
+        border: 2px solid white;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+        border-radius: 10px;
+        padding-left: 1.8rem;
+        padding-top: 0.5rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 395px) and (min-width: 376px){
+    .card-two{
+        border: 2px solid white;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+        border-radius: 10px;
+        padding-left: 1.5rem;
+        padding-top: 0.5rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media(max-width: 376px) and (min-width: 355px){
+    .card-two{
+        border: 2px solid white;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+        border-radius: 10px;
+        padding-left: 1.5rem;
+        padding-top: 0.5rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 355px) and (min-width: 325px){
+    .card-two{
+        border: 2px solid white;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+        border-radius: 10px;
+        padding-left: 1.4rem;
+        padding-top: 0.5rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 325px) and (min-width: 315px) {
+    .card-two{
+        border: 2px solid white;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+        border-radius: 10px;
+        padding-left: 1.2rem;
+        padding-top: 0.5rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.downloadpdf-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+@media (max-width: 355px) and (min-width: 325px){
+    .downloadpdf-title{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 21.5px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 325px) and (min-width: 315px) {
+    .downloadpdf-title{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 21px;
+        font-weight: 600;
+    }
+}
+
+.selectmonth{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin-right: 0.8rem;
+}
+
+@media (max-width: 325px) and (min-width: 315px) {
+    .selectmonth{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        margin-right: 0.8rem;
+    }
+}
+
+.monthoptions{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-right: 2rem;
+    padding-top: 0.2rem;
+    text-align: left;
+    outline: none;
+    cursor: pointer;
+}
+
+@media (max-width: 325px) and (min-width: 315px) {
+    .monthoptions{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding-left: 0.2rem;
+        padding-bottom: 0.2rem;
+        padding-right: 2rem;
+        padding-top: 0.2rem;
+        text-align: left;
+        outline: none;
+        cursor: pointer;
+    }
+}
+
+.downloadpdf{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.3rem;
+    padding-top: 0.3rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    cursor: pointer;
+}
+
+@media (max-width: 325px) and (min-width: 315px) {
+    .downloadpdf{
+        background-color: white;
+        color: black;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 0.3rem;
+        padding-top: 0.3rem;
+        border: 1px solid black;
+        border-radius: 5px;
+        transition: background-color 0.5s ease, color 0.5s ease;
+        cursor: pointer;
+    }
+}
+
+.downloadpdf:hover{
+    background-color: black;
+    color: white;
+}
+
+.search{
+    margin-top: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.464);
+    padding: 0.7rem 2rem 0.7rem;
+    padding-right: 77.7rem;
+    border-radius: 5px;
+    background-color: white;
+    outline: none;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 0.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media(max-width: 435px) and (min-width: 415px){
+    .search{
+        margin-top: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.464);
+        padding: 0.7rem 2rem 0.7rem;
+        padding-right: 10rem;
+        border-radius: 5px;
+        background-color: white;
+        outline: none;
+        font-size: 16px;
+        text-align: left;
+        padding-left: 1rem;
+        padding-top: 0.3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+@media (max-width: 415px) and (min-width: 413px){
+    .search{
+        margin-top: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.464);
+        padding: 0.7rem 2rem 0.7rem;
+        padding-right: 9.1rem;
+        border-radius: 5px;
+        background-color: white;
+        outline: none;
+        font-size: 16px;
+        text-align: left;
+        padding-left: 1rem;
+        padding-top: 0.3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+@media(max-width: 413px) and (min-width: 395px){
+    .search{
+        margin-top: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.464);
+        padding: 0.7rem 2rem 0.7rem;
+        padding-right: 9rem;
+        border-radius: 5px;
+        background-color: white;
+        outline: none;
+        font-size: 16px;
+        text-align: left;
+        padding-left: 1rem;
+        padding-top: 0.3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+@media (max-width: 395px) and (min-width: 376px){
+    .search{
+        margin-top: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.464);
+        padding: 0.7rem 2rem 0.7rem;
+        padding-right: 8rem;
+        border-radius: 5px;
+        background-color: white;
+        outline: none;
+        font-size: 16px;
+        text-align: left;
+        padding-left: 1rem;
+        padding-top: 0.3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+@media(max-width: 376px) and (min-width: 355px){
+    .search{
+        margin-top: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.464);
+        padding: 0.7rem 2rem 0.7rem;
+        padding-right: 6.2rem;
+        border-radius: 5px;
+        background-color: white;
+        outline: none;
+        font-size: 16px;
+        text-align: left;
+        padding-left: 1rem;
+        padding-top: 0.3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+@media (max-width: 355px) and (min-width: 325px){
+    .search{
+        margin-top: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.464);
+        padding: 0.7rem 2rem 0.7rem;
+        padding-right: 6rem;
+        border-radius: 5px;
+        background-color: white;
+        outline: none;
+        font-size: 16px;
+        text-align: left;
+        padding-left: 1rem;
+        padding-top: 0.3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+@media (max-width: 325px) and (min-width: 315px) {
+    .search{
+        margin-top: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.464);
+        padding: 0.7rem 2rem 0.7rem;
+        padding-right: 4rem;
+        border-radius: 5px;
+        background-color: white;
+        outline: none;
+        font-size: 16px;
+        text-align: left;
+        padding-left: 1rem;
+        padding-top: 0.3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+.no-transaction-found{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+@media (max-width: 325px) and (min-width: 315px){
+    .no-transaction-found{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+
+.income-expense-bar-graph-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+@media (max-width: 413px) and (min-width: 395px){
+    .income-expense-bar-graph-title{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 19px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 325px) and (min-width: 315px) {
+    .income-expense-bar-graph-title{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+    }
+}

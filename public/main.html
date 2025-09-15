@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cal.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <title>Silly story generator</title>
+  </head>
+  <body>
+    <div class="separate-two-cards">
+      <div class="card-one" id="card-one">
+        <div class="separate-title-toggle">
+          <p class="budget-tracker-title">Budget Tracker</p>
+          <button class="toggle-btn" id="toggle">Dark Mode</button><br />
+        </div>
+        <label for="amount" class="amount-label">Amount:</label><br />
+        <input type="number" id="amount" class="amount" placeholder="Enter amount" /><br /><br />
+        <label for="description" class="description-label">Description:</label><br />
+        <input type="text" id="description" class="description" placeholder="Enter description" /><br /><br />
+        <input type="radio" id="income" name="type" />&nbsp;<label for="income" class="income">Income</label>
+        <input type="radio" id="expenses" name="type" />&nbsp;<label for="expenses" class="expense">Expense</label><br /><br />
+        <button id="submit" class="submit">Add Transaction</button>
+        <p id="totalincome" class="totalincome"></p>
+        <p id="totalexpense" class="totalexpense"></p>
+        <p id="currentbalance" class="currentbalance"></p>
+        <button id="clearall" class="clearall">Clear All Transaction</button>
+        <p id="alert" class="alert"></p>
+      </div>
+      <div class="card-two" id="card-two">
+        <p class="downloadpdf-title">Download PDF</p>
+        <label for="generate pdf" class="selectmonth">Select Month:</label>
+        <select id="selectmonth" class="monthoptions">
+          <option value="0" class="monthoptions">January</option>
+          <option value="1" class="monthoptions">February</option>
+          <option value="2" class="monthoptions">March</option>
+          <option value="3" class="monthoptions">April</option>
+          <option value="4" class="monthoptions">May</option>
+          <option value="5" class="monthoptions">June</option>
+          <option value="6" class="monthoptions">July</option>
+          <option value="7" class="monthoptions">Augest</option>
+          <option value="8" class="monthoptions">September</option>
+          <option value="9" class="monthoptions">October</option>
+          <option value="10" class="monthoptions">November</option>
+          <option value="11" class="monthoptions">December</option>
+        </select><br /><br />
+        <button id="downloadpdf" class="downloadpdf">Download PDF</button><br /><br />
+        <input type="text" id="search" placeholder="Search transactions..." class="search" />
+        <hr id="hr-id" />
+        <p id="no-transaction-found" class="no-transaction-found"></p>
+        <div id="result"></div>
+        <p class="income-expense-bar-graph-title">Income/Expense per Month</p>
+        <canvas id="barChart" width="600" height="400"></canvas>
+      </div>
+    </div>
+    <script src="random.js"></script>
+  </body>
+</html>
