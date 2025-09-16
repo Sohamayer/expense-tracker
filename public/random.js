@@ -210,7 +210,7 @@ window.onload = () => {
         downloadPDF.style.border = "1px solid black";
         searchInput.style.backgroundColor = "white";
         targetHR.style.backgroundColor = "rgba(0,0,0,0.12)";
-        searchInput.style.color = "white";
+        searchInput.style.color = "black";
         barChart.options.scales.x.ticks.color = "black";
         barChart.options.scales.y.ticks.color = "black";
         barChart.options.scales.x.grid.color = "rgba(0,0,0,0.1)";
@@ -333,6 +333,10 @@ function showBudget(list = storeBudget) {
     }
     });
 
+    if (balance < 500) {
+        alert.textContent = "Your balance is less then ₹500!";
+    }
+
     if (balance < 0) {
         balance = 0;
     }
@@ -353,10 +357,6 @@ function showBudget(list = storeBudget) {
     barData.datasets[1].data = monthlyExpense;
     barChart.update();
 
-    if (Number(balance) < 500) {
-        alert.textContent = "Your balance is less then ₹500!";
-    }
-
     let ongoingMonth = now.toLocaleDateString("en-GB", { day: "2-digit", month: "short"});
 
     if (ongoingMonth === "31 Dec") {
@@ -369,10 +369,9 @@ function showBudget(list = storeBudget) {
         let yetnotransaction = document.createElement("p");
         result.appendChild(yetnotransaction);
         yetnotransaction.textContent = "No transactions is added yet!";
-        yetnotransaction.style.fontFamily = "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
         yetnotransaction.style.fontSize = "18px";
-        yetnotransaction.style.fontWeight = "600";
         yetnotransaction.style.color = "red";
+        yetnotransaction.style.fontWeight = "600";
     }
 };
 

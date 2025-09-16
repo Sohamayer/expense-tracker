@@ -5,130 +5,66 @@ body{
 
 .card-one{
     border: 2px solid white;
-    margin-left: 0.1rem;
-    margin-right: 0.1rem;
+    margin-left: 0.1%;
+    margin-right: 0.1%;
     border-radius: 10px;
-    padding-left: 2.5rem;
-    padding-top: 0.5rem;
-    padding-right: 1rem;
-    padding-bottom: 2rem;
-    margin-bottom: 1rem;
+    padding: 1.4% 2.5% 3% 3%;
+    margin-bottom: 1%;
 }
 
-@media (max-width: 435px) and (min-width: 415px){
+@media(max-width: 1280px) and (min-width: 1025px){
     .card-one{
         border: 2px solid white;
-        margin-left: 0.1rem;
-        margin-right: 0.1rem;
+        margin-left: 0.1%;
+        margin-right: 0.1%;
         border-radius: 10px;
-        padding-left: 2rem;
-        padding-top: 0.5rem;
-        padding-right: 1rem;
-        padding-bottom: 2rem;
-        margin-bottom: 1rem;
+        padding: 1% 3% 3% 4%;
+        margin-bottom: 1%;
     }
 }
 
-@media (max-width: 415px) and (min-width: 413px){
+@media (max-width: 1024px) and (min-width: 768px){
     .card-one{
         border: 2px solid white;
-        margin-left: 0.1rem;
-        margin-right: 0.1rem;
+        margin-left: 0.1%;
+        margin-right: 0.1%;
         border-radius: 10px;
-        padding-left: 1.9rem;
-        padding-top: 0.5rem;
-        padding-right: 1rem;
-        padding-bottom: 2rem;
-        margin-bottom: 1rem;
+        padding: 1.6% 3% 3% 4%;
+        margin-bottom: 1%;
     }
 }
 
-@media (max-width: 413px) and (min-width: 395px){
+@media (max-width: 767px) and (min-width: 481px){
     .card-one{
         border: 2px solid white;
-        margin-left: 0.1rem;
-        margin-right: 0.1rem;
+        margin-left: 0.1%;
+        margin-right: 0.1%;
         border-radius: 10px;
-        padding-left: 1.8rem;
-        padding-top: 0.5rem;
-        padding-right: 1rem;
-        padding-bottom: 2rem;
-        margin-bottom: 1rem;
+        padding: 3% 3% 3% 5%;
+        margin-bottom: 1%;
     }
 }
 
-@media (max-width: 395px) and (min-width: 376px){
+@media (max-width: 480px) and (min-width: 0px){
     .card-one{
         border: 2px solid white;
-        margin-left: 0.1rem;
-        margin-right: 0.1rem;
+        margin-left: 0.1%;
+        margin-right: 0.1%;
         border-radius: 10px;
-        padding-left: 1.4rem;
-        padding-top: 0.5rem;
-        padding-right: 1rem;
-        padding-bottom: 2rem;
-        margin-bottom: 1rem;
-    }
-}
-
-@media (max-width: 376px) and (min-width: 355px) {
-    .card-one{
-        border: 2px solid white;
-        margin-left: 0.1rem;
-        margin-right: 0.1rem;
-        border-radius: 10px;
-        padding-left: 1.4rem;
-        padding-top: 0.5rem;
-        padding-right: 1rem;
-        padding-bottom: 2rem;
-        margin-bottom: 1rem;
-    }
-}
-
-@media (max-width: 355px) and (min-width: 325px){
-    .card-one{
-        border: 2px solid white;
-        margin-left: 0.1rem;
-        margin-right: 0.1rem;
-        border-radius: 10px;
-        padding-left: 1.4rem;
-        padding-top: 0.5rem;
-        padding-right: 1rem;
-        padding-bottom: 2rem;
-        margin-bottom: 1rem;
-    }
-}
-
-@media(max-width: 325px) and (min-width: 315px){
-    .card-one{
-        border: 2px solid white;
-        margin-left: 0.1rem;
-        margin-right: 0.1rem;
-        border-radius: 10px;
-        padding-left: 1.2rem;
-        padding-top: 0.5rem;
-        padding-right: 1rem;
-        padding-bottom: 2rem;
-        margin-bottom: 1rem;
+        padding: 4% 3% 3% 6.5%;
+        margin-bottom: 1%;
     }
 }
 
 .separate-title-toggle{
     display: flex;
     flex-direction: row;
-    margin-bottom: 0.9rem;
-}
-
-@media (max-width: 413px){
-    .separate-title-toggle{
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 0.5rem;
-    }
+    justify-content: space-between;
+    margin-bottom: 1%;
 }
 
 .budget-tracker-title{
-    font-size: 28px;
+    font-size: 190%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 0px;
     font-weight: 600;
@@ -136,9 +72,9 @@ body{
     word-spacing: 0.5px;
 }
 
-@media (max-width: 435px) and (min-width: 415px){
+@media (max-width: 1280px) and (min-width: 1025px){
     .budget-tracker-title{
-        font-size: 25px;
+        font-size: 190%;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         line-height: 0px;
         font-weight: 600;
@@ -147,9 +83,9 @@ body{
     }
 }
 
-@media (max-width: 415px) and (min-width: 413px){
+@media (max-width: 1024px) and (min-width: 768px){
     .budget-tracker-title{
-        font-size: 25px;
+        font-size: 190%;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         line-height: 0px;
         font-weight: 600;
@@ -158,9 +94,9 @@ body{
     }
 }
 
-@media (max-width:413px) and (min-width: 395px){
+@media (max-width: 767px) and (min-width: 481px){
     .budget-tracker-title{
-        font-size: 26px;
+        font-size: 190%;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         line-height: 0px;
         font-weight: 600;
@@ -169,42 +105,9 @@ body{
     }
 }
 
-@media (max-width: 395px) and (min-width: 376px){
+@media (max-width: 480px) and (min-width: 0px){
     .budget-tracker-title{
-        font-size: 24px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        line-height: 0px;
-        font-weight: 600;
-        letter-spacing: 0.5px;
-        word-spacing: 0.5px;
-    }
-}
-
-@media (max-width: 376px) and (min-width: 355px){
-    .budget-tracker-title{
-        font-size: 24px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        line-height: 0px;
-        font-weight: 600;
-        letter-spacing: 0.5px;
-        word-spacing: 0.5px;
-    }
-}
-
-@media (max-width: 355px) and (min-width: 325px){
-    .budget-tracker-title{
-        font-size: 22px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        line-height: 0px;
-        font-weight: 600;
-        letter-spacing: 0.5px;
-        word-spacing: 0.5px;
-    }
-}
-
-@media (max-width: 325px) and (min-width: 315px){
-    .budget-tracker-title{
-        font-size: 21.5px;
+        font-size: 145%;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         line-height: 0px;
         font-weight: 600;
@@ -214,12 +117,12 @@ body{
 }
 
 .toggle-btn{
-    margin-left: 68rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    margin-left: 75%;
+    padding-left: 1.8%;
+    padding-right: 1.8%;
     padding-top: 0px;
-    margin-top: 0.9rem;
-    margin-bottom: 0.6rem;
+    margin-top: 1%;
+    margin-bottom: 0.7%;
     border: 1px solid black;
     border-radius: 10px;
     font-size: 13.5px;
@@ -230,17 +133,36 @@ body{
     transition: background-color 0.5s ease, color 0.5s ease;
 }
 
-@media(max-width: 435px) and (min-width: 415px){
+@media (max-width:1280px) and (min-width: 1025px){
     .toggle-btn{
-        margin-left: 4rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        margin-left: 67%;
+        padding-left: 1.7%;
+        padding-right: 1.7%;
         padding-top: 0px;
-        margin-top: 0.9rem;
-        margin-bottom: 0.6rem;
+        margin-top: 1.2%;
+        margin-bottom: 1%;
+        border: 1px solid black;
+        border-radius: 7px;
+        font-size: 85%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+        background-color: white;
+        transition: background-color 0.5s ease, color 0.5s ease;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px){
+    .toggle-btn{
+        margin-left: 50%;
+        padding-left: 1.7%;
+        padding-right: 1.7%;
+        padding-top: 0px;
+        margin-top: 2%;
+        margin-bottom: 1%;
         border: 1px solid black;
         border-radius: 10px;
-        font-size: 13px;
+        font-size: 80%;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         letter-spacing: 0.5px;
         font-weight: 600;
@@ -249,17 +171,17 @@ body{
     }
 }
 
-@media (max-width: 415px) and (min-width: 413px){
+@media (max-width: 767px) and (min-width: 481px){
     .toggle-btn{
-        margin-left: 4rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        margin-left: 35%;
+        padding-left: 2%;
+        padding-right: 2%;
         padding-top: 0px;
-        margin-top: 0.9rem;
-        margin-bottom: 0.6rem;
+        margin-top: 2%;
+        margin-bottom: 2.5%;
         border: 1px solid black;
-        border-radius: 10px;
-        font-size: 12px;
+        border-radius: 5px;
+        font-size: 75%;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         letter-spacing: 0.5px;
         font-weight: 600;
@@ -268,97 +190,17 @@ body{
     }
 }
 
-@media (max-width: 413px) and (min-width: 395px){
+@media (max-width: 480px) and (min-width: 0px){
     .toggle-btn{
-        margin-left: 3rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        margin-left: 15%;
+        padding-left: 3%;
+        padding-right: 3%;
         padding-top: 0px;
-        margin-top: 0.9rem;
-        margin-bottom: 0.6rem;
-        border: 1px solid black;
-        border-radius: 10px;
-        font-size: 10px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        letter-spacing: 0.5px;
-        font-weight: 600;
-        background-color: white;
-        transition: background-color 0.5s ease, color 0.5s ease;
-    }
-}
-
-@media (max-width: 395px) and (min-width: 376px) {
-    .toggle-btn{
-        margin-left: 3rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        padding-top: 0.2rem;
-        padding-bottom: 0.3rem;
-        margin-top: 0.7rem;
-        margin-bottom: 0.6rem;
+        margin-top: 2%;
+        margin-bottom: 2%;
         border: 1px solid black;
         border-radius: 5px;
-        font-size: 13px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        letter-spacing: 0.5px;
-        font-weight: 600;
-        background-color: white;
-        transition: background-color 0.5s ease, color 0.5s ease;
-    }
-}
-
-@media (max-width: 376px) and (min-width: 355px){
-    .toggle-btn{
-        margin-left: 1.3rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        padding-top: 0.2rem;
-        padding-bottom: 0.3rem;
-        margin-top: 0.7rem;
-        margin-bottom: 0.6rem;
-        border: 1px solid black;
-        border-radius: 5px;
-        font-size: 12px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        letter-spacing: 0.5px;
-        font-weight: 600;
-        background-color: white;
-        transition: background-color 0.5s ease, color 0.5s ease;
-    }
-}
-
-@media (max-width: 355px) and (min-width: 325px){
-    .toggle-btn{
-        margin-left: 2rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        padding-top: 0.2rem;
-        padding-bottom: 0.3rem;
-        margin-top: 0.7rem;
-        margin-bottom: 0.6rem;
-        border: 1px solid black;
-        border-radius: 5px;
-        font-size: 12px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        letter-spacing: 0.5px;
-        font-weight: 600;
-        background-color: white;
-        transition: background-color 0.5s ease, color 0.5s ease;
-    }
-}
-
-@media (max-width: 325px) and (min-width: 315px) {
-    .toggle-btn{
-        margin-left: 1.7rem;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-        padding-top: 0.2rem;
-        padding-bottom: 0.3rem;
-        margin-top: 0.7rem;
-        margin-bottom: 0.6rem;
-        border: 1px solid black;
-        border-radius: 5px;
-        font-size: 11px;
+        font-size: 70%;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         letter-spacing: 0.5px;
         font-weight: 600;
@@ -373,16 +215,46 @@ body{
 }
 
 .amount-label{
-    font-size: 17px;
+    font-size: 110%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
     line-height: 24px;
     letter-spacing: 0.5px;
 }
 
-@media (max-width: 325px) and (min-width: 315px) {
+@media (max-width: 1280px) and (min-width: 1025px){
     .amount-label{
-        font-size: 15px;
+        font-size: 130%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .amount-label{
+        font-size: 120%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 481px){
+    .amount-label{
+        font-size: 110%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+    }
+}
+
+@media (max-width: 480px) and (min-width: 0px){
+    .amount-label{
+        font-size: 100%;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: 600;
         line-height: 24px;
@@ -391,135 +263,74 @@ body{
 }
 
 .amount{
-    margin-top: 0.5rem;
+    margin-top: 0.8%;
     border: 1px solid rgba(0, 0, 0, 0.464);
-    padding: 0.5rem 2rem 0.5rem;
-    padding-right: 77.7rem;
+    padding: 0.4% 2% 0.6% 1.2%;
+    padding-right: 85.9%;
     border-radius: 5px;
     background-color: white;
     outline: none;
-    font-size: 16px;
+    font-size: 100%;
     text-align: left;
-    padding-left: 1rem;
-    padding-top: 0.3rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-@media(max-width: 435px) and (min-width: 415px){
+@media (max-width: 1280px) and (min-width: 1025px){
     .amount{
-        margin-top: 0.5rem;
+        margin-top: 0.8%;
         border: 1px solid rgba(0, 0, 0, 0.464);
-        padding: 0.5rem 2rem 0.5rem;
-        padding-right: 10rem;
+        padding: 0.7% 2% 1% 2%;
+        padding-right: 79.5%;
         border-radius: 5px;
         background-color: white;
         outline: none;
-        font-size: 16px;
+        font-size: 120%;
         text-align: left;
-        padding-left: 1rem;
-        padding-top: 0.3rem;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 }
 
-@media (max-width: 415px) and (min-width: 413px){
+@media (max-width: 1024px) and (min-width: 768px) {
     .amount{
-        margin-top: 0.5rem;
+        margin-top: 0.8%;
         border: 1px solid rgba(0, 0, 0, 0.464);
-        padding: 0.5rem 2rem 0.5rem;
-        padding-right: 9.1rem;
+        padding: 0.7% 0% 1% 2%;
+        padding-right: 70.4%;
         border-radius: 5px;
         background-color: white;
         outline: none;
-        font-size: 16px;
+        font-size: 110%;
         text-align: left;
-        padding-left: 1rem;
-        padding-top: 0.3rem;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 }
 
-@media (max-width: 413px) and (min-width: 395px) {
+@media (max-width: 767px) and (min-width: 481px){
     .amount{
-        margin-top: 0.5rem;
+        margin-top: 0.8%;
         border: 1px solid rgba(0, 0, 0, 0.464);
-        padding: 0.5rem 2rem 0.5rem;
-        padding-right: 8.5rem;
+        padding: 0.8% 2% 1.1% 3%;
+        padding-right: 70.4%;
         border-radius: 5px;
         background-color: white;
         outline: none;
-        font-size: 16px;
+        font-size: 100%;
         text-align: left;
-        padding-left: 1rem;
-        padding-top: 0.3rem;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 }
 
-@media (max-width: 395px) and (min-width: 376px){
+@media (max-width: 480px) and (min-width: 0px) {
     .amount{
-        margin-top: 0.5rem;
+        margin-top: 0.8%;
         border: 1px solid rgba(0, 0, 0, 0.464);
-        padding: 0.5rem 2rem 0.5rem;
-        padding-right: 8rem;
+        padding: 1.5% 0% 1.5% 4%;
+        padding-right: 38%;
         border-radius: 5px;
         background-color: white;
         outline: none;
-        font-size: 16px;
+        font-size: 90%;
         text-align: left;
-        padding-left: 1rem;
-        padding-top: 0.3rem;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-}
-
-@media (max-width: 376px) and (min-width: 355px){
-    .amount{
-        margin-top: 0.5rem;
-        border: 1px solid rgba(0, 0, 0, 0.464);
-        padding: 0.5rem 2rem 0.5rem;
-        padding-right: 6.2rem;
-        border-radius: 5px;
-        background-color: white;
-        outline: none;
-        font-size: 16px;
-        text-align: left;
-        padding-left: 1rem;
-        padding-top: 0.3rem;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-}
-
-@media (max-width: 355px) and (min-width: 325px){
-    .amount{
-        margin-top: 0.5rem;
-        border: 1px solid rgba(0, 0, 0, 0.464);
-        padding: 0.5rem 2rem 0.5rem;
-        padding-right: 6rem;
-        border-radius: 5px;
-        background-color: white;
-        outline: none;
-        font-size: 16px;
-        text-align: left;
-        padding-left: 1rem;
-        padding-top: 0.3rem;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-}
-
-@media (max-width: 325px) and (min-width: 315px){
-    .amount{
-        margin-top: 0.5rem;
-        border: 1px solid rgba(0, 0, 0, 0.464);
-        padding: 0.4rem 2rem 0.4rem;
-        padding-right: 4rem;
-        border-radius: 5px;
-        background-color: white;
-        outline: none;
-        font-size: 16px;
-        text-align: left;
-        padding-left: 1rem;
-        padding-top: 0.3rem;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 }
@@ -527,151 +338,120 @@ body{
 .description-label{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 110%;
     line-height: 24px;
     letter-spacing: 0.5px;
 }
 
-@media (max-width: 325px) and (min-width: 315px){
+@media (max-width: 1280px) and (min-width: 1025px){
     .description-label{
+        font-size: 130%;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: 600;
-        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .description-label{
+        font-size: 120%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 481px){
+    .description-label{
+        font-size: 110%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+    }
+}
+
+@media (max-width: 480px) and (min-width: 0px){
+    .description-label{
+        font-size: 100%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
         line-height: 24px;
         letter-spacing: 0.5px;
     }
 }
 
 .description{
-    margin-top: 0.5rem;
+    margin-top: 0.8%;
     border: 1px solid rgba(0, 0, 0, 0.464);
-    padding: 0.5rem 2rem 0.5rem;
-    padding-right: 77.7rem;
+    padding: 0.4% 2% 0.6% 1.2%;
+    padding-right: 85.9%;
     border-radius: 5px;
     background-color: white;
     outline: none;
-    font-size: 16px;
+    font-size: 100%;
     text-align: left;
-    padding-left: 1rem;
-    padding-top: 0.3rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-@media(max-width: 435px) and (min-width: 415px){
+@media (max-width: 1280px) and (min-width: 1025px){
     .description{
-        margin-top: 0.5rem;
+        margin-top: 0.8%;
         border: 1px solid rgba(0, 0, 0, 0.464);
-        padding: 0.5rem 2rem 0.5rem;
-        padding-right: 10rem;
+        padding: 0.7% 2% 1% 2%;
+        padding-right: 79.5%;
         border-radius: 5px;
         background-color: white;
         outline: none;
-        font-size: 16px;
+        font-size: 120%;
         text-align: left;
-        padding-left: 1rem;
-        padding-top: 0.3rem;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 }
 
-@media(max-width: 415px) and (min-width: 413px){
+@media (max-width: 1024px) and (min-width: 768px) {
     .description{
-        margin-top: 0.5rem;
+        margin-top: 0.8%;
         border: 1px solid rgba(0, 0, 0, 0.464);
-        padding: 0.5rem 2rem 0.5rem;
-        padding-right: 9.1rem;
+        padding: 0.7% 0% 1% 2%;
+        padding-right: 70%;
         border-radius: 5px;
         background-color: white;
         outline: none;
-        font-size: 16px;
+        font-size: 110%;
         text-align: left;
-        padding-left: 1rem;
-        padding-top: 0.3rem;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 }
 
-@media(max-width: 413px) and (min-width: 395px){
+@media (max-width: 767px) and (min-width: 481px){
     .description{
-        margin-top: 0.5rem;
+        margin-top: 0.8%;
         border: 1px solid rgba(0, 0, 0, 0.464);
-        padding: 0.5rem 2rem 0.5rem;
-        padding-right: 8.5rem;
+        padding: 0.8% 2% 1.1% 3%;
+        padding-right: 70.4%;
         border-radius: 5px;
         background-color: white;
         outline: none;
-        font-size: 16px;
+        font-size: 100%;
         text-align: left;
-        padding-left: 1rem;
-        padding-top: 0.3rem;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 }
 
-@media (max-width: 395px) and (min-width: 376px){
+@media (max-width: 480px) and (min-width: 0px) {
     .description{
-        margin-top: 0.5rem;
+        margin-top: 0.8%;
         border: 1px solid rgba(0, 0, 0, 0.464);
-        padding: 0.5rem 2rem 0.5rem;
-        padding-right: 8rem;
+        padding: 1.5% 0% 1.5% 4%;
+        padding-right: 38%;
         border-radius: 5px;
         background-color: white;
         outline: none;
-        font-size: 16px;
+        font-size: 90%;
         text-align: left;
-        padding-left: 1rem;
-        padding-top: 0.3rem;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-}
-
-@media(max-width: 376px) and (min-width: 355px){
-    .description{
-        margin-top: 0.5rem;
-        border: 1px solid rgba(0, 0, 0, 0.464);
-        padding: 0.5rem 2rem 0.5rem;
-        padding-right: 6.2rem;
-        border-radius: 5px;
-        background-color: white;
-        outline: none;
-        font-size: 16px;
-        text-align: left;
-        padding-left: 1rem;
-        padding-top: 0.3rem;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-}
-
-@media (max-width: 355px) and (min-width: 325px){
-    .description{
-        margin-top: 0.5rem;
-        border: 1px solid rgba(0, 0, 0, 0.464);
-        padding: 0.5rem 2rem 0.5rem;
-        padding-right: 6rem;
-        border-radius: 5px;
-        background-color: white;
-        outline: none;
-        font-size: 16px;
-        text-align: left;
-        padding-left: 1rem;
-        padding-top: 0.3rem;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-}
-
-@media (max-width: 325px) and (min-width: 315px) {
-    .description{
-        margin-top: 0.5rem;
-        border: 1px solid rgba(0, 0, 0, 0.464);
-        padding: 0.3rem 2rem 0.3rem;
-        padding-right: 4rem;
-        border-radius: 5px;
-        background-color: white;
-        outline: none;
-        font-size: 16px;
-        text-align: left;
-        padding-left: 1rem;
-        padding-top: 0.3rem;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 }
@@ -685,28 +465,68 @@ input[type="radio"] {
 
 .income{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
+    font-size: 100%;
     font-weight: 600;
-}
-
-@media (max-width: 325px) and (min-width: 315px) {
-    .income{
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 15px;
-        font-weight: 600;
-    }
 }
 
 .expense{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
+    font-size: 100%;
     font-weight: 600;
 }
 
-@media (max-width: 325px) and (min-width: 315px) {
+@media(max-width: 1280px) and (min-width: 1025px) {
+    .income{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 120%;
+        font-weight: 600;
+    }
+
     .expense{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 15px;
+        font-size: 120%;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .income{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 120%;
+        font-weight: 600;
+    }
+
+    .expense{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 120%;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 481px){
+    .income{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 110%;
+        font-weight: 600;
+    }
+
+    .expense{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 110%;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 480px) and (min-width: 0px) {
+    .income{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 100%;
+        font-weight: 600;
+    }
+
+    .expense{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 100%;
         font-weight: 600;
     }
 }
@@ -714,32 +534,74 @@ input[type="radio"] {
 .submit{
     background-color: #1976d2;
     color: white;
-    font-size: 16px;
+    font-size: 100%;
     font-weight: 600;
     letter-spacing: 0.5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 0.5rem;
-    padding-top: 0.5rem;
+    padding: 0.4% 1.5% 0.6% 1.5%;
     border: 1px solid #1976d2;
     border-radius: 5px;
     transition: background-color 0.5s ease, border 0.5s ease;
     cursor: pointer;
 }
 
-@media (max-width: 325px) and (min-width: 315px){
+@media(max-width: 1280px) and (min-width: 1025px) {
     .submit{
         background-color: #1976d2;
         color: white;
-        font-size: 15px;
+        font-size: 120%;
         font-weight: 600;
         letter-spacing: 0.5px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        padding-bottom: 0.3rem;
-        padding-top: 0.3rem;
+        padding: 0.5% 1.9% 0.7% 1.9%;
+        border: 1px solid #1976d2;
+        border-radius: 5px;
+        transition: background-color 0.5s ease, border 0.5s ease;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .submit{
+        background-color: #1976d2;
+        color: white;
+        font-size: 120%;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0.5% 1.9% 0.7% 1.9%;
+        border: 1px solid #1976d2;
+        border-radius: 5px;
+        transition: background-color 0.5s ease, border 0.5s ease;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 481px){
+    .submit{
+        background-color: #1976d2;
+        color: white;
+        font-size: 110%;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0.5% 1.9% 0.7% 1.9%;
+        border: 1px solid #1976d2;
+        border-radius: 5px;
+        transition: background-color 0.5s ease, border 0.5s ease;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 480px) and (min-width: 0px){
+    .submit{
+        background-color: #1976d2;
+        color: white;
+        font-size: 100%;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0.8% 2.5% 1% 2.5%;
         border: 1px solid #1976d2;
         border-radius: 5px;
         transition: background-color 0.5s ease, border 0.5s ease;
@@ -753,43 +615,112 @@ input[type="radio"] {
 }
 
 .totalincome{
-    font-size: 17px;
+    font-size: 110%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
     letter-spacing: 0.2px;
 }
 
 .totalexpense{
-    font-size: 17px;
+    font-size: 110%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
     letter-spacing: 0.2px;
 }
 
 .currentbalance{
-    font-size: 17px;
+    font-size: 110%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
     letter-spacing: 0.2px;
 }
 
-@media (max-width: 325px) and (min-width: 315px){
+@media(max-width: 1280px) and (min-width: 1025px) {
     .totalincome{
-        font-size: 16px;
+        font-size: 130%;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: 600;
         letter-spacing: 0.2px;
     }
 
     .totalexpense{
-        font-size: 16px;
+        font-size: 130%;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: 600;
         letter-spacing: 0.2px;
     }
 
     .currentbalance{
-        font-size: 16px;
+        font-size: 130%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.2px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .totalincome{
+        font-size: 125%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.2px;
+    }
+
+    .totalexpense{
+        font-size: 125%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.2px;
+    }
+
+    .currentbalance{
+        font-size: 125%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.2px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 481px){
+    .totalincome{
+        font-size: 115%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.2px;
+    }
+
+    .totalexpense{
+        font-size: 115%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.2px;
+    }
+
+    .currentbalance{
+        font-size: 115%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.2px;
+    }
+}
+
+@media (max-width: 480px) and (min-width: 0px){
+    .totalincome{
+        font-size: 105%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.2px;
+    }
+
+    .totalexpense{
+        font-size: 105%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.2px;
+    }
+
+    .currentbalance{
+        font-size: 105%;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: 600;
         letter-spacing: 0.2px;
@@ -799,32 +730,74 @@ input[type="radio"] {
 .clearall{
     background-color: white;
     color: black;
-    font-size: 16px;
+    font-size: 100%;
     font-weight: 600;
     letter-spacing: 0.5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 0.5rem;
-    padding-top: 0.5rem;
+    padding: 0.4% 1.5% 0.6% 1.5%;
     border: 1px solid black;
     border-radius: 5px;
     transition: background-color 0.5s ease, color 0.5s ease;
     cursor: pointer;
 }
 
-@media (max-width: 325px) and (min-width: 315px){
+@media(max-width: 1280px) and (min-width: 1025px) {
     .clearall{
         background-color: white;
         color: black;
-        font-size: 15px;
+        font-size: 120%;
         font-weight: 600;
         letter-spacing: 0.5px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        padding-bottom: 0.3rem;
-        padding-top: 0.3rem;
+        padding: 0.5% 1.9% 0.7% 1.9%;
+        border: 1px solid black;
+        border-radius: 5px;
+        transition: background-color 0.5s ease, color 0.5s ease;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .clearall{
+        background-color: white;
+        color: black;
+        font-size: 120%;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0.5% 1.9% 0.7% 1.9%;
+        border: 1px solid black;
+        border-radius: 5px;
+        transition: background-color 0.5s ease, color 0.5s ease;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 481px){
+    .clearall{
+        background-color: white;
+        color: black;
+        font-size: 110%;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0.5% 1.9% 0.7% 1.9%;
+        border: 1px solid black;
+        border-radius: 5px;
+        transition: background-color 0.5s ease, color 0.5s ease;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 480px) and (min-width: 0px){
+    .clearall{
+        background-color: white;
+        color: black;
+        font-size: 100%;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0.8% 2.5% 1% 2.5%;
         border: 1px solid black;
         border-radius: 5px;
         transition: background-color 0.5s ease, color 0.5s ease;
@@ -838,16 +811,46 @@ input[type="radio"] {
 }
 
 .alert{
-    font-size: 17px;
+    font-size: 110%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
     letter-spacing: 0.5px;
     color: red;
 }
 
-@media (max-width: 325px) and (min-width: 315px){
+@media(max-width: 1280px) and (min-width: 1025px) {
     .alert{
-        font-size: 16px;
+        font-size: 130%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        color: red;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .alert{
+        font-size: 130%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        color: red;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 481px){
+    .alert{
+        font-size: 120%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        color: red;
+    }
+}
+
+@media (max-width: 480px) and (min-width: 0px){
+    .alert{
+        font-size: 110%;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: 600;
         letter-spacing: 0.5px;
@@ -857,212 +860,253 @@ input[type="radio"] {
 
 .card-two{
     border: 2px solid white;
-    margin-left: 0.1rem;
-    margin-right: 0.1rem;
+    margin-left: 0.1%;
+    margin-right: 0.1%;
     border-radius: 10px;
-    padding-left: 2.5rem;
-    padding-top: 0.5rem;
-    padding-right: 1rem;
-    padding-bottom: 2rem;
+    padding: 1.4% 2.5% 3% 3%;
+    margin-bottom: 1%;
 }
 
-@media (max-width: 435px) and (min-width: 415px){
+@media(max-width: 1280px) and (min-width: 1025px) {
     .card-two{
         border: 2px solid white;
-        margin-left: 0.1rem;
-        margin-right: 0.1rem;
+        margin-left: 0.1%;
+        margin-right: 0.1%;
         border-radius: 10px;
-        padding-left: 2rem;
-        padding-top: 0.5rem;
-        padding-right: 1rem;
-        padding-bottom: 2rem;
-        margin-bottom: 1rem;
+        padding: 1% 3% 3% 4%;
+        margin-bottom: 1%;
     }
 }
 
-@media (max-width: 415px) and (min-width: 413px){
+@media (max-width: 1024px) and (min-width: 768px) {
     .card-two{
         border: 2px solid white;
-        margin-left: 0.1rem;
-        margin-right: 0.1rem;
+        margin-left: 0.1%;
+        margin-right: 0.1%;
         border-radius: 10px;
-        padding-left: 1.9rem;
-        padding-top: 0.5rem;
-        padding-right: 1rem;
-        padding-bottom: 2rem;
-        margin-bottom: 1rem;
+        padding: 1% 3% 3% 4%;
+        margin-bottom: 1%;
     }
 }
 
-@media(max-width: 413px) and (min-width: 395px){
+@media (max-width: 767px) and (min-width: 481px){
     .card-two{
         border: 2px solid white;
-        margin-left: 0.1rem;
-        margin-right: 0.1rem;
+        margin-left: 0.1%;
+        margin-right: 0.1%;
         border-radius: 10px;
-        padding-left: 1.8rem;
-        padding-top: 0.5rem;
-        padding-right: 1rem;
-        padding-bottom: 2rem;
-        margin-bottom: 1rem;
+        padding: 1% 3% 3% 5%;
+        margin-bottom: 1%;
     }
 }
 
-@media (max-width: 395px) and (min-width: 376px){
+@media (max-width: 480px) and (min-width: 0px){
     .card-two{
         border: 2px solid white;
-        margin-left: 0.1rem;
-        margin-right: 0.1rem;
+        margin-left: 0.1%;
+        margin-right: 0.1%;
         border-radius: 10px;
-        padding-left: 1.5rem;
-        padding-top: 0.5rem;
-        padding-right: 1rem;
-        padding-bottom: 2rem;
-        margin-bottom: 1rem;
-    }
-}
-
-@media(max-width: 376px) and (min-width: 355px){
-    .card-two{
-        border: 2px solid white;
-        margin-left: 0.1rem;
-        margin-right: 0.1rem;
-        border-radius: 10px;
-        padding-left: 1.5rem;
-        padding-top: 0.5rem;
-        padding-right: 1rem;
-        padding-bottom: 2rem;
-        margin-bottom: 1rem;
-    }
-}
-
-@media (max-width: 355px) and (min-width: 325px){
-    .card-two{
-        border: 2px solid white;
-        margin-left: 0.1rem;
-        margin-right: 0.1rem;
-        border-radius: 10px;
-        padding-left: 1.4rem;
-        padding-top: 0.5rem;
-        padding-right: 1rem;
-        padding-bottom: 2rem;
-        margin-bottom: 1rem;
-    }
-}
-
-@media (max-width: 325px) and (min-width: 315px) {
-    .card-two{
-        border: 2px solid white;
-        margin-left: 0.1rem;
-        margin-right: 0.1rem;
-        border-radius: 10px;
-        padding-left: 1.2rem;
-        padding-top: 0.5rem;
-        padding-right: 1rem;
-        padding-bottom: 2rem;
-        margin-bottom: 1rem;
+        padding: 1% 3% 3% 6.5%;
+        margin-bottom: 1%;
     }
 }
 
 .downloadpdf-title{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 23px;
+    font-size: 158%;
     font-weight: 600;
-}
-
-@media (max-width: 355px) and (min-width: 325px){
-    .downloadpdf-title{
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 21.5px;
-        font-weight: 600;
-    }
-}
-
-@media (max-width: 325px) and (min-width: 315px) {
-    .downloadpdf-title{
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 21px;
-        font-weight: 600;
-    }
 }
 
 .selectmonth{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 17px;
+    font-size: 110%;
     font-weight: 600;
-    margin-right: 0.8rem;
-}
-
-@media (max-width: 325px) and (min-width: 315px) {
-    .selectmonth{
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 16px;
-        font-weight: 600;
-        margin-right: 0.8rem;
-    }
+    margin-right: 1%;
 }
 
 .monthoptions{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
+    font-size: 100%;
     font-weight: 600;
     border: 1px solid black;
     border-radius: 5px;
-    padding-left: 0.2rem;
-    padding-bottom: 0.2rem;
-    padding-right: 2rem;
-    padding-top: 0.2rem;
+    padding: 0.2% 1.5% 0.4% 0.5%;
     text-align: left;
     outline: none;
     cursor: pointer;
 }
 
-@media (max-width: 325px) and (min-width: 315px) {
-    .monthoptions{
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 14px;
-        font-weight: 600;
-        border: 1px solid black;
-        border-radius: 5px;
-        padding-left: 0.2rem;
-        padding-bottom: 0.2rem;
-        padding-right: 2rem;
-        padding-top: 0.2rem;
-        text-align: left;
-        outline: none;
-        cursor: pointer;
-    }
-}
-
 .downloadpdf{
     background-color: white;
     color: black;
-    font-size: 16px;
+    font-size: 100%;
     font-weight: 600;
     letter-spacing: 0.5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 0.3rem;
-    padding-top: 0.3rem;
+    padding: 0.4% 1.5% 0.6% 1.3%;
     border: 1px solid black;
     border-radius: 5px;
     transition: background-color 0.5s ease, color 0.5s ease;
     cursor: pointer;
 }
 
-@media (max-width: 325px) and (min-width: 315px) {
+@media(max-width: 1280px) and (min-width: 1025px) {
+    .downloadpdf-title{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 170%;
+        font-weight: 600;
+    }
+
+    .selectmonth{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 130%;
+        font-weight: 600;
+        margin-right: 1%;
+    }
+
+    .monthoptions{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 100%;
+        font-weight: 600;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 0.4% 2% 0.6% 1%;
+        text-align: left;
+        outline: none;
+        cursor: pointer;
+    }
+
     .downloadpdf{
         background-color: white;
         color: black;
-        font-size: 15px;
+        font-size: 120%;
         font-weight: 600;
         letter-spacing: 0.5px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        padding-bottom: 0.3rem;
-        padding-top: 0.3rem;
+        padding: 0.6% 1.7% 0.8% 1.5%;
+        border: 1px solid black;
+        border-radius: 5px;
+        transition: background-color 0.5s ease, color 0.5s ease;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .downloadpdf-title{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 165%;
+        font-weight: 600;
+    }
+
+    .selectmonth{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 120%;
+        font-weight: 600;
+        margin-right: 1%;
+    }
+
+    .monthoptions{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 95%;
+        font-weight: 600;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 0.4% 2% 0.6% 1%;
+        text-align: left;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .downloadpdf{
+        background-color: white;
+        color: black;
+        font-size: 115%;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0.6% 1.7% 0.8% 1.5%;
+        border: 1px solid black;
+        border-radius: 5px;
+        transition: background-color 0.5s ease, color 0.5s ease;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 481px){
+    .downloadpdf-title{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 155%;
+        font-weight: 600;
+    }
+
+    .selectmonth{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 110%;
+        font-weight: 600;
+        margin-right: 1%;
+    }
+
+    .monthoptions{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 90%;
+        font-weight: 600;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 0.4% 2% 0.6% 1%;
+        text-align: left;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .downloadpdf{
+        background-color: white;
+        color: black;
+        font-size: 105%;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0.6% 1.7% 0.8% 1.5%;
+        border: 1px solid black;
+        border-radius: 5px;
+        transition: background-color 0.5s ease, color 0.5s ease;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 480px) and (min-width: 0px){
+    .downloadpdf-title{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 140%;
+        font-weight: 600;
+    }
+
+    .selectmonth{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 95%;
+        font-weight: 600;
+        margin-right: 1%;
+    }
+
+    .monthoptions{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 80%;
+        font-weight: 600;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 0.4% 2% 0.6% 1%;
+        text-align: left;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .downloadpdf{
+        background-color: white;
+        color: black;
+        font-size: 95%;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0.8% 2.5% 1% 2.5%;
         border: 1px solid black;
         border-radius: 5px;
         transition: background-color 0.5s ease, color 0.5s ease;
@@ -1076,171 +1120,143 @@ input[type="radio"] {
 }
 
 .search{
-    margin-top: 0.5rem;
+    margin-top: 0.8%;
     border: 1px solid rgba(0, 0, 0, 0.464);
-    padding: 0.7rem 2rem 0.7rem;
-    padding-right: 77.7rem;
+    padding: 0.4% 2% 0.6% 1.2%;
+    padding-right: 85.9%;
     border-radius: 5px;
     background-color: white;
     outline: none;
-    font-size: 16px;
+    font-size: 100%;
     text-align: left;
-    padding-left: 1rem;
-    padding-top: 0.3rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-@media(max-width: 435px) and (min-width: 415px){
+@media (max-width: 1280px) and (min-width: 1025px) {
     .search{
-        margin-top: 0.5rem;
+        margin-top: 0.8%;
         border: 1px solid rgba(0, 0, 0, 0.464);
-        padding: 0.7rem 2rem 0.7rem;
-        padding-right: 10rem;
+        padding: 0.7% 2% 1% 2%;
+        padding-right: 79.5%;
         border-radius: 5px;
         background-color: white;
         outline: none;
-        font-size: 16px;
+        font-size: 120%;
         text-align: left;
-        padding-left: 1rem;
-        padding-top: 0.3rem;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 }
 
-@media (max-width: 415px) and (min-width: 413px){
+@media (max-width: 1024px) and (min-width: 768px) {
     .search{
-        margin-top: 0.5rem;
+        margin-top: 0.8%;
         border: 1px solid rgba(0, 0, 0, 0.464);
-        padding: 0.7rem 2rem 0.7rem;
-        padding-right: 9.1rem;
+        padding: 0.7% 0% 1% 2%;
+        padding-right: 70%;
+        margin-right: 1rem;
         border-radius: 5px;
         background-color: white;
         outline: none;
-        font-size: 16px;
+        font-size: 120%;
         text-align: left;
-        padding-left: 1rem;
-        padding-top: 0.3rem;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 }
 
-@media(max-width: 413px) and (min-width: 395px){
+@media (max-width: 767px) and (min-width: 481px){
     .search{
-        margin-top: 0.5rem;
+        margin-top: 0.8%;
         border: 1px solid rgba(0, 0, 0, 0.464);
-        padding: 0.7rem 2rem 0.7rem;
-        padding-right: 9rem;
+        padding: 0.8% 2% 1.1% 3%;
+        padding-right: 70.4%;
         border-radius: 5px;
         background-color: white;
         outline: none;
-        font-size: 16px;
+        font-size: 100%;
         text-align: left;
-        padding-left: 1rem;
-        padding-top: 0.3rem;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 }
 
-@media (max-width: 395px) and (min-width: 376px){
+@media (max-width: 480px) and (min-width: 0px) {
     .search{
-        margin-top: 0.5rem;
+        margin-top: 0.8%;
         border: 1px solid rgba(0, 0, 0, 0.464);
-        padding: 0.7rem 2rem 0.7rem;
-        padding-right: 8rem;
+        padding: 1.5% 0% 1.5% 4%;
+        padding-right: 38%;
         border-radius: 5px;
         background-color: white;
         outline: none;
-        font-size: 16px;
+        font-size: 90%;
         text-align: left;
-        padding-left: 1rem;
-        padding-top: 0.3rem;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-}
-
-@media(max-width: 376px) and (min-width: 355px){
-    .search{
-        margin-top: 0.5rem;
-        border: 1px solid rgba(0, 0, 0, 0.464);
-        padding: 0.7rem 2rem 0.7rem;
-        padding-right: 6.2rem;
-        border-radius: 5px;
-        background-color: white;
-        outline: none;
-        font-size: 16px;
-        text-align: left;
-        padding-left: 1rem;
-        padding-top: 0.3rem;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-}
-
-@media (max-width: 355px) and (min-width: 325px){
-    .search{
-        margin-top: 0.5rem;
-        border: 1px solid rgba(0, 0, 0, 0.464);
-        padding: 0.7rem 2rem 0.7rem;
-        padding-right: 6rem;
-        border-radius: 5px;
-        background-color: white;
-        outline: none;
-        font-size: 16px;
-        text-align: left;
-        padding-left: 1rem;
-        padding-top: 0.3rem;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-}
-
-@media (max-width: 325px) and (min-width: 315px) {
-    .search{
-        margin-top: 0.5rem;
-        border: 1px solid rgba(0, 0, 0, 0.464);
-        padding: 0.7rem 2rem 0.7rem;
-        padding-right: 4rem;
-        border-radius: 5px;
-        background-color: white;
-        outline: none;
-        font-size: 16px;
-        text-align: left;
-        padding-left: 1rem;
-        padding-top: 0.3rem;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 }
 
 .no-transaction-found{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 17px;
+    font-size: 110%;
     font-weight: 600;
-}
-
-@media (max-width: 325px) and (min-width: 315px){
-    .no-transaction-found{
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 16px;
-        font-weight: 600;
-    }
 }
 
 .income-expense-bar-graph-title{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 23px;
+    font-size: 150%;
     font-weight: 600;
 }
 
-@media (max-width: 413px) and (min-width: 395px){
+@media (max-width: 1280px) and (min-width: 1025px) {
+    .no-transaction-found{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 130%;
+        font-weight: 600;
+    }
+
     .income-expense-bar-graph-title{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 19px;
+        font-size: 180%;
         font-weight: 600;
     }
 }
 
-@media (max-width: 325px) and (min-width: 315px) {
+@media (max-width: 1024px) and (min-width: 768px){
+    .no-transaction-found{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 130%;
+        font-weight: 600;
+    }
+
     .income-expense-bar-graph-title{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 18px;
+        font-size: 170%;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 481px){
+    .no-transaction-found{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 130%;
+        font-weight: 600;
+    }
+
+    .income-expense-bar-graph-title{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 150%;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 480px) and (min-width: 0px){
+    .no-transaction-found{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 130%;
+        font-weight: 600;
+    }
+
+    .income-expense-bar-graph-title{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 140%;
         font-weight: 600;
     }
 }
