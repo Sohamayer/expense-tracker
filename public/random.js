@@ -374,10 +374,7 @@ function showBudget(list = storeBudget) {
         yetnotransaction.style.fontWeight = "600";
         yetnotransaction.style.color = "red";
     }
-    else{
-        showBudget();
-    }
-}
+};
 
 submitBtn.addEventListener("click", () => {
     const amount = amountInput.value.trim();
